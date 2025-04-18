@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+yt-dlp
+pytube
+pydantic
+psycopg2-binary
+celery
+redis
