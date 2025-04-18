@@ -149,9 +149,13 @@ pip install -r requirements.txt
 ### 4. Create `.env` File
 
 ```env
-MAX_DURATION=18000          # In seconds (e.g., 5 hours)
-MAX_FILESIZE=1073741824     # In bytes (e.g., 1GB)
-TEMP_DIR=./temp
+DATABASE_URL = "postgresql://postgres:tushar@localhost:5432/yt_downloader"
+API_KEY=password123
+REDIS_BROKER_URL=redis://localhost:6379/0
+RATE_LIMIT=100
+TIME_WINDOW=86400
+MAX_DURATION=18000
+MAX_FILESIZE=3221225472
 ```
 
 ---
