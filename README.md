@@ -170,8 +170,8 @@ Visit the interactive API docs at: [http://localhost:8000/docs](http://localhost
 
 1. Start Redis server
 2. Launch Celery worker:
-   ```bash
-   celery -A app.workers.celery_worker.celery worker --loglevel=info
+   ```
+   celery -A celery_worker.celery_app worker --loglevel=info
    ```
 
 ---
@@ -182,7 +182,7 @@ Visit the interactive API docs at: [http://localhost:8000/docs](http://localhost
 - ✅ Docker + Gunicorn deployment
 - ✅ PostgreSQL-based download history
 - ✅ Frontend UI with download progress
-- ✅ Rate limiting, caching, and analytics
+- ✅ Caching, and analytics
 
 ---
 
